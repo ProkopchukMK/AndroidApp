@@ -62,6 +62,20 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\drawable-ldpi\.vs\slnx.sqlite" />
+    <AndroidResource Include="Resources\drawable-ldpi\.vs\VSWorkspaceState.json" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\.vs\slnx.sqlite" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\.vs\VSWorkspaceState.json" />
+    <AndroidResource Include="Resources\drawable-xhdpi\.vs\slnx.sqlite" />
+    <AndroidResource Include="Resources\drawable-xhdpi\.vs\VSWorkspaceState.json" />
+    <AndroidResource Include="Resources\drawable-mdpi\.vs\slnx.sqlite" />
+    <AndroidResource Include="Resources\drawable-mdpi\.vs\VSWorkspaceState.json" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\.vs\ProjectSettings.json" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\.vs\slnx.sqlite" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\.vs\VSWorkspaceState.json" />
+    <AndroidResource Include="Resources\drawable-hdpi\.vs\ProjectSettings.json" />
+    <AndroidResource Include="Resources\drawable-hdpi\.vs\slnx.sqlite" />
+    <AndroidResource Include="Resources\drawable-hdpi\.vs\VSWorkspaceState.json" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -74,9 +88,34 @@
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-ldpi\Icon.png" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\.vs\drawable-hdpi\v15\" />
+    <Folder Include="Resources\drawable-ldpi\.vs\drawable-ldpi\v15\" />
+    <Folder Include="Resources\drawable-mdpi\.vs\drawable-mdpi\v15\" />
+    <Folder Include="Resources\drawable-xhdpi\.vs\drawable-xhdpi\v15\" />
+    <Folder Include="Resources\drawable-xxhdpi\.vs\drawable-xxhdpi\v15\" />
+    <Folder Include="Resources\drawable-xxxhdpi\.vs\drawable-xxxhdpi\v15\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
